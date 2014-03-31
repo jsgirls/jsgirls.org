@@ -219,6 +219,9 @@ image: "/assets/img/event/sapporo-201404.png"
     .grid__cell.grid__cell--4
       a(href='http://www.pxgrid.com/', target='_blank')
         img(src='/assets/img/partner/pixelgrid.jpg', width='100%')
+    .grid__cell.grid__cell--4
+      a(href='http://www.infiniteloop.co.jp/', target='_blank')
+        img(src='/assets/img/partner/infiniteloop.jpg', width='100%')
 
 script.
   document.addEventListener('DOMContentLoaded', function () {
