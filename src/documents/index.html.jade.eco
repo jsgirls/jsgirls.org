@@ -25,20 +25,20 @@ isPage: true
       h2.alpha 
         a(href='/events') Upcoming Events
 
-      ul
-      <% for page in @getCollection("upcomingEvents").toJSON(): %>
-        li.grid.upcomings
-          .grid__cell.grid__cell--4
-            .upcoming
-              a(href='<%= page.url %>')
-                .frame.upcoming__thumbnail
-                  img(src='<%= page.image %>',width='100%')
-              p.upcoming__date <%= @moment(page.date).format('YYYY/MM/DD') %>
-          .grid__cell.grid__cell--8
-            h2.upcoming__title.upcoming__title--home.beta
-              a(href='<%= page.url %>') <%= page.title %>
-            p.upcoming__summary <%= page.summary %>  
-      <% end %>
+<% for page in @getCollection("upcomingEvents").toJSON(): %>
+  .grid.upcomings
+    .grid__cell.grid__cell--4
+      .upcoming
+        a(href='<%= page.url %>')
+          .frame.upcoming__thumbnail
+            img(src='<%= page.image %>',width='100%')
+        p.upcoming__date <%= @moment(page.date).format('YYYY/MM/DD') %>
+    .grid__cell.grid__cell--8
+      h2.upcoming__title.upcoming__title--home.beta
+        a(href='<%= page.url %>') <%= page.title %>
+      p.upcoming__summary <%= page.summary %>  
+<% end %>
+
 .section
   .grid
     .grid__cell.grid__cell--12

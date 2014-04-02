@@ -200,6 +200,7 @@ a
   line-height 3rem
   font-size: 1.2rem
   font-weight bold
+  color: $black
   > li
     margin-right 5px
     & + li:before
@@ -209,6 +210,11 @@ a
       width: 1em
       font-weight bold
       font-size 0.8em
+    & > a
+      text-decoration: none;
+      color: inherit;
+      &:hover
+        color: $blue
 
 .site-banner
   position absolute
