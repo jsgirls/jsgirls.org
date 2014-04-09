@@ -217,6 +217,9 @@ image: "/assets/img/event/sapporo-201404.png"
     .grid__cell.grid__cell--4
       a(href='http://www.local.or.jp/', target='_blank')
         img(src='/assets/img/partner/local.jpg', width='100%')
+    .grid__cell.grid__cell--4
+      a(href='http://www.pasonatech.co.jp/', target='_blank')
+        img(src='/assets/img/partner/pasonatech.jpg', width='100%')
 
 .section
   .grid
