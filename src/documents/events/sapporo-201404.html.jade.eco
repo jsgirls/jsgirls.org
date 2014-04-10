@@ -166,12 +166,21 @@ image: "/assets/img/event/sapporo-201404.png"
           li
             .flag.mentor
               .flag__image.mentor__avatar
-                a(href="http://twitter.com/ginpei_jp")
+                a(href="http://twitter.com/nakajmg")
                   img.frame(src='https://avatars0.githubusercontent.com/u/1995370?s=200', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
                 h3.delta 中島 直博
                 p
                   a(href="http://twitter.com/nakajmg") @nakajmg
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/ww24")
+                  img.frame(src='https://avatars0.githubusercontent.com/u/695166?s=200', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 中川 武憲
+                p
+                  a(href="http://twitter.com/ww24") @ww24
 
 .section
   .grid
@@ -208,6 +217,9 @@ image: "/assets/img/event/sapporo-201404.png"
     .grid__cell.grid__cell--4
       a(href='http://www.local.or.jp/', target='_blank')
         img(src='/assets/img/partner/local.jpg', width='100%')
+    .grid__cell.grid__cell--4
+      a(href='http://www.pasonatech.co.jp/', target='_blank')
+        img(src='/assets/img/partner/pasonatech.jpg', width='100%')
 
 .section
   .grid
