@@ -49,14 +49,14 @@ image: "/assets/img/event/fukuoka-201406.jpg"
             p.strong
               講演:プログラミングとわたし
             p.
-              キュートなプログラミング女子の<a href="http://twitter.com/?????">松本 早弥香</a>さんが、どのようにプログラミングを学んできたか実体験を語ってくれます。
+              キュートなプログラミング女子の<a href="https://www.facebook.com/sayaka.matsumoto.5245">松本 早弥香</a>さんが、どのようにプログラミングを学んできたか実体験を語ってくれます。
           dt.timetable__time.
             11:00
           dd.timetable__content
             p.strong
               ハンズオン:Google Chrome拡張機能をつくる
             p
-              <a href="http://twitter.com/kuronekomichael）">中島 幸樹</a>からハンズオンについての説明です。今回のお題であるGoogle Chrome拡張機能をつくるために必要な知識などを教えてくれます。
+              <a href="http://twitter.com/kuronekomichael">なかしまこうき</a>からハンズオンについての説明です。今回のお題であるGoogle Chrome拡張機能をつくるために必要な知識などを教えてくれます。
           dt.timetable__time.
             12:30
           dd.timetable__content
@@ -134,7 +134,7 @@ image: "/assets/img/event/fukuoka-201406.jpg"
                 a(href="http://twitter.com/kuronekomichael")
                   img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/s200x200/10152648_10203413941570219_994146991_n.jpg', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
-                h3.delta 中島 幸樹
+                h3.delta なかしまこうき
                 p
                   a(href="http://twitter.com/kuronekomichael") @kuronekomichael
           li
@@ -159,7 +159,7 @@ image: "/assets/img/event/fukuoka-201406.jpg"
             .flag.mentor
               .flag__image.mentor__avatar
                 a(href="https://www.facebook.com/atsuko.anan")
-                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c50.50.621.621/s200x200/432059_389230791103206_1376239744_n.jpg', width='68', height='68')
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.50.621.621/s200x200/432059_389230791103206_1376239744_n.jpg', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
                 h3.delta 阿南 あつこ
                 p
@@ -167,21 +167,11 @@ image: "/assets/img/event/fukuoka-201406.jpg"
           li
             .flag.mentor
               .flag__image.mentor__avatar
-                a(href="http://twitter.com//?????")
-                  img.frame(src='https://avatars0.githubusercontent.com/u/111111111?s=200', width='68', height='68')
+                  img.frame(src='https://pbs.twimg.com/profile_images/1847061101/_____normal.png', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
-                h3.delta 河津 えり
+                h3.delta kawa2
                 p
-                  a(href="http://twitter.com//?????") @???????
-          li
-            .flag.mentor
-              .flag__image.mentor__avatar
-                a(href="http://twitter.com/?????")
-                  img.frame(src='https://avatars0.githubusercontent.com/u/111111111?s=200', width='68', height='68')
-              .flag__body.flag__body--middle.mentor__body
-                h3.delta 松本 早弥香
-                p
-                  a(href="http://twitter.com/?????") @?????
+                  a &nbsp;
           li
             .flag.mentor
               .flag__image.mentor__avatar
@@ -194,10 +184,20 @@ image: "/assets/img/event/fukuoka-201406.jpg"
           li
             .flag.mentor
               .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/sayaka.matsumoto.5245")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c0.50.200.200/p200x200/403158_355722774451943_1378201732_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 松本 早弥香
+                p
+                  a(href="https://www.facebook.com/sayaka.matsumoto.5245") sayaka.matsumoto.5245
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
                 a(href="http://twitter.com/cloud10designs")
                   img.frame(src='https://pbs.twimg.com/profile_images/1759213043/avatar_200x200.jpg', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
                 h3.delta 平尾 優典(ゆうてん)
+                div 株式会社ディーゼロ
                 p
                   a(href="http://twitter.com/cloud10designs") @cloud10designs
 
