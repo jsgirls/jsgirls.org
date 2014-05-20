@@ -167,11 +167,13 @@ image: "/assets/img/event/fukuoka-201406.jpg"
           li
             .flag.mentor
               .flag__image.mentor__avatar
-                  img.frame(src='https://pbs.twimg.com/profile_images/1847061101/_____normal.png', width='68', height='68')
+                a(href="http://twitter.com/cloud10designs")
+                  img.frame(src='https://pbs.twimg.com/profile_images/1759213043/avatar_200x200.jpg', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
-                h3.delta kawa2
+                h3.delta 平尾 優典(ゆうてん)
+                div 株式会社ディーゼロ
                 p
-                  a &nbsp;
+                  a(href="http://twitter.com/cloud10designs") @cloud10designs
           li
             .flag.mentor
               .flag__image.mentor__avatar
@@ -193,13 +195,20 @@ image: "/assets/img/event/fukuoka-201406.jpg"
           li
             .flag.mentor
               .flag__image.mentor__avatar
-                a(href="http://twitter.com/cloud10designs")
-                  img.frame(src='https://pbs.twimg.com/profile_images/1759213043/avatar_200x200.jpg', width='68', height='68')
+                  img.frame(src='https://pbs.twimg.com/profile_images/1847061101/_____normal.png', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
-                h3.delta 平尾 優典(ゆうてん)
-                div 株式会社ディーゼロ
+                h3.delta kawa2
                 p
-                  a(href="http://twitter.com/cloud10designs") @cloud10designs
+                  a &nbsp;
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/xxxxx")
+                  img.frame(src='https://pbs.twimg.com/profile_images/xxxxxx/avatar_200x200.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 中村 晃也
+                p
+                  a(href="http://twitter.com/xxxx") @xxxxxx
 
 .section
   .grid
@@ -228,14 +237,14 @@ image: "/assets/img/event/fukuoka-201406.jpg"
     .grid__cell.grid__cell--12
       h2.beta 協賛
     .grid__cell.grid__cell--4
-      a(href='http://anysense.co.jp/', target='_blank')
-        img(src='/assets/img/partner/anysense.png', width='100%')
-    .grid__cell.grid__cell--4
       a(href='http://www.e-catchup.jp/', target='_blank')
         img(src='/assets/img/partner/e-catchup.png', width='100%')
     .grid__cell.grid__cell--4
       a(href='http://www.d-zero.co.jp/', target='_blank')
         img(src='/assets/img/partner/d-zero.jpg', width='100%')
+    .grid__cell.grid__cell--4
+      a(href='https://www.facebook.com/anysense.inc', target='_blank')
+        img(src='/assets/img/partner/anysense.png', width='100%')
     .grid__cell.grid__cell--4
       a(href='http://ccf.jp.net/', target='_blank')
         img(src='/assets/img/partner/ccf.jpg', width='100%')
