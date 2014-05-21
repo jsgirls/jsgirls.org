@@ -19,8 +19,8 @@ image: "/assets/img/event/fukuoka-201406.jpg"
         まずはJavaScriptで自分の考えたものを何か作ってみましょう！
         思い描いたものがカタチになったら絶対うれしい(^ ^)
       p.
-        参加者15人に対して、講師はなんと9人！
-        講師の約半分は女性ですので、より気兼ねなく質問もできますよ。
+        参加者15人に対して、講師はなんと10人！
+        講師の半分も女性ですので、より気兼ねなく質問もできますよ。
         ひとりじゃ難しくて勉強を進められないと思っていた方も、
         作ろうと思って、つまづいた時に聞ける人がいないと思っていた方も、
         これを機に、福岡で一緒にJavaScriptをはじめてみましょう！
@@ -203,12 +203,12 @@ image: "/assets/img/event/fukuoka-201406.jpg"
           li
             .flag.mentor
               .flag__image.mentor__avatar
-                a(href="http://twitter.com/xxxxx")
-                  img.frame(src='https://pbs.twimg.com/profile_images/xxxxxx/avatar_200x200.jpg', width='68', height='68')
+                a(href="https://www.facebook.com/koyank24")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c2.0.200.200/p200x200/10171236_520555791389833_8531425692689658829_n.jpg', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
                 h3.delta 中村 晃也
                 p
-                  a(href="http://twitter.com/xxxx") @xxxxxx
+                  a(href="https://www.facebook.com/koyank24") koyank24
 
 .section
   .grid
@@ -236,18 +236,22 @@ image: "/assets/img/event/fukuoka-201406.jpg"
   .grid
     .grid__cell.grid__cell--12
       h2.beta 協賛
+    .grid__cell.grid__cell--3
+      a
+    .grid__cell.grid__cell--6
+      a(href='http://www.d-zero.co.jp/', target='_blank')
+        img(src='/assets/img/partner/d-zero.png', width='100%')
+    .grid__cell.grid__cell--3
+      a
     .grid__cell.grid__cell--4
       a(href='http://www.e-catchup.jp/', target='_blank')
         img(src='/assets/img/partner/e-catchup.png', width='100%')
-    .grid__cell.grid__cell--4
-      a(href='http://www.d-zero.co.jp/', target='_blank')
-        img(src='/assets/img/partner/d-zero.jpg', width='100%')
     .grid__cell.grid__cell--4
       a(href='https://www.facebook.com/anysense.inc', target='_blank')
         img(src='/assets/img/partner/anysense.png', width='100%')
     .grid__cell.grid__cell--4
       a(href='http://ccf.jp.net/', target='_blank')
-        img(src='/assets/img/partner/ccf.jpg', width='100%')
+        img(src='/assets/img/partner/ccf.png', width='100%')
 
 .section
   .grid
