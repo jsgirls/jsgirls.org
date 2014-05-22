@@ -1,0 +1,268 @@
+---
+title: "JS Girls Fukuoka #1"
+date: "2014/06/21"
+place: "Fukuoka, Japan"
+summary: "Google Chrome拡張機能をつくってJavaScriptを学ぼう！"
+layout: "event"
+isEvent: true
+image: "/assets/img/event/fukuoka-201406.jpg"
+---
+
+.section
+  .grid
+    .grid__cell.grid__cell--6
+      img(src='<%= @document.image %>', width='100%')
+    .grid__cell.grid__cell--6
+      h2.alpha <%= @document.title %>
+      p.
+        東京・札幌に続き、次は福岡でJS Girlsが発足します！
+        ステキなセミナールームで、お茶をお菓子を準備してお待ちしています。
+        いままでにはないリラックスした雰囲気で、JavaScriptで自分の考えたものを何か作ってみましょう！
+        苦手だと思っていたプログラミングも、意外とかけちゃうかもよ？！(ｕ_ｕ*)
+      p.
+        参加者15人に対して、講師はなんと10人！
+        講師の半分も女性ですので、より気兼ねなく質問もできますよ。
+        ひとりじゃ難しくて勉強を進められないと思っていた方も、
+        作ろうと思って、つまづいた時に聞ける人がいないと思っていた方も、
+        これを機に、福岡で一緒にJavaScriptをはじめてみましょう！
+      p.text-right
+        ハッシュタグ：<a href="https://twitter.com/search?q=%23jsgirls_fukuoka">#jsgirls_fukuoka</a>
+
+.section
+  .grid
+    .grid__cell.grid__cell--6
+      .section.aside
+        h2.beta <%= @moment(@document.date).format('YYYY/MM/DD(ddd)') %>
+        dl.timetable
+          dt.timetable__time.
+            10:00
+          dd.timetable__content
+            p.strong
+              開場
+          dt.timetable__time.
+            10:30
+          dd.timetable__content
+            p.strong
+              開演・諸注意
+          dt.timetable__time.
+            10:40
+          dd.timetable__content
+            p.strong
+              講演:プログラミングとわたし
+            p.
+              キュートなプログラミング女子の<a href="https://www.facebook.com/sayaka.matsumoto.5245">松本 早弥香</a>さんが、どのようにプログラミングを学んできたか実体験を語ってくれます。
+          dt.timetable__time.
+            11:00
+          dd.timetable__content
+            p.strong
+              ハンズオン:Google Chrome拡張機能をつくる
+            p
+              <a href="http://twitter.com/kuronekomichael">なかしまこうき</a>からハンズオンについての説明です。今回のお題であるGoogle Chrome拡張機能をつくるために必要な知識などを教えてくれます。
+          dt.timetable__time.
+            12:30
+          dd.timetable__content
+            p.strong
+              ランチ
+            p
+              ランチは会場で用意しています。みんなでわいわいランチも楽しみましょう。
+          dt.timetable__time.
+            13:30
+          dd.timetable__content
+            p.strong
+              もくもく開発！
+            p.
+              さっそく開発をはじめましょう。困ったときには会場にいるメンターがサポートしてくれるので、気軽に質問・相談してみてください。
+              お茶やお菓子も用意していますので、適度に休憩をとりながら、雑談しながら取り組みましょう。
+          dt.timetable__time.
+            19:00
+          dd.timetable__content
+            p.strong
+              発表会・懇親会
+            p
+              懇親会で参加者やメンターと交流しましょう。また成果物をみんなの前で発表できる方は、ぜひ発表してみてください。
+              発表、アウトプットがより成長につながります。
+          dt.timetable__time.
+            21:00
+          dd.timetable__content
+            p.strong
+              解散
+            p
+              一日かけて開発をおこなったイベントも終わり、おつかれさまでした。
+              よければ参加の感想をTwitterやブログで報告してもらえると嬉しいです。
+
+    .grid__cell.grid__cell--6
+      .section
+        h2.beta.beta--highlight どんな人が参加できるの？
+        ul.list
+          li JavaScriptをもっと書けるようになりたい人
+          li どんな経験でも良いので、一度でもJavaScriptを書いたことがある人
+          li PCを持参できる人（会場では用意していません）
+      .section
+        h2.beta.beta--highlight よくある質問
+        dl.faq
+          dt.faq__q 参加費はかかりますか？
+          dd.faq__a 参加費は無料です。その他、懇親会費も無料です。
+          dt.faq__q 無線LANや電源はありますか？
+          dd.faq__a はい、いずれも用意されています。ただし電源に関しては数に限りがあるので、共有して使ってください
+          dt.faq__q 予習はした方がいいですか？
+          dd.faq__a
+            p 次の書籍やサイトを見て予習しておくと良いかもしれません。
+            ul.list
+              li
+                a(href='https://github.com/1000ch/chrome-extension-hands-on/wiki') Chrome Extension Hands-on
+              li
+                a(href='http://developer.chrome.com/extensions/index.html') What are extensions?
+              li
+                a(href='http://www.amazon.co.jp/dp/4844334220/') 開発者のためのChromeガイドブック
+              li
+                a(href='http://www.amazon.co.jp/dp/4774153761/') ノンプログラマのためのJavaScriptはじめの一歩
+
+      .section
+        h2.beta.beta--highlight メンター、チューター
+        ul.mentors
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/VSBR_jpn")
+                  img.frame(src='https://pbs.twimg.com/profile_images/442864871374221312/0SDqqZrs_200x200.jpeg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 田島 寛之
+                p
+                  a(href="http://twitter.com/VSBR_jpn") @VSBR_jpn
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/kuronekomichael")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/s200x200/10152648_10203413941570219_994146991_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta なかしまこうき
+                p
+                  a(href="http://twitter.com/kuronekomichael") @kuronekomichael
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/ayakomuro")
+                  img.frame(src='https://avatars0.githubusercontent.com/u/1077766?s=200', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 小室 文
+                p
+                  a(href="http://twitter.com/ayakomuro") @ayakomuro
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/noriji822")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc1/t1.0-1/c371.45.545.545/s200x200/1001897_460698144028112_35085530_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 松本 典子
+                p
+                  a(href="https://www.facebook.com/noriji822") noriji822
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/atsuko.anan")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash2/t1.0-1/c0.50.621.621/s200x200/432059_389230791103206_1376239744_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 阿南 あつこ
+                p
+                  a(href="https://www.facebook.com/atsuko.anan") atsuko.anan
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/cloud10designs")
+                  img.frame(src='https://pbs.twimg.com/profile_images/1759213043/avatar_200x200.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 平尾 優典(ゆうてん)
+                div 株式会社ディーゼロ
+                p
+                  a(href="http://twitter.com/cloud10designs") @cloud10designs
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/tamshow_")
+                  img.frame(src='https://avatars0.githubusercontent.com/u/3056064?s=200', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 田村 章吾
+                p
+                  a(href="http://twitter.com/tamshow_") @tamshow_
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/sayaka.matsumoto.5245")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-ash3/t1.0-1/c0.50.200.200/p200x200/403158_355722774451943_1378201732_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 松本 早弥香
+                p
+                  a(href="https://www.facebook.com/sayaka.matsumoto.5245") sayaka.matsumoto.5245
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                  img.frame(src='https://pbs.twimg.com/profile_images/1847061101/_____normal.png', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta kawa2
+                p
+                  a &nbsp;
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/koyank24")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/t1.0-1/c2.0.200.200/p200x200/10171236_520555791389833_8531425692689658829_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 中村 晃也
+                p
+                  a(href="https://www.facebook.com/koyank24") koyank24
+
+.section
+  .grid
+    .grid__cell.grid__cell--12
+      h2.beta 開催場所
+    .grid__cell.grid__cell--6
+      div.map-canvas.frame#js-map-canvas(data-lat='33.5865245', data-lng='130.3987268', data-zoom='17', data-title='クリエイティブセンター福岡')
+    .grid__cell.grid__cell--6
+      h2.gamma クリエイティブセンター福岡
+      p.
+        福岡市今泉1丁目20-2 天神MENTビル８階 セミナールーム
+      h2.gamma アクセス
+      ul
+        li 西鉄福岡(天神)駅から徒歩５分
+        li 地下鉄空港線 天神駅から徒歩１０分
+        li 博多駅から国体道路経由のバスに乗車し、天神警固神社・三越前で下車して徒歩１分
+
+.section
+  .grid.grid--center
+    .grid__cell.grid__cell--6
+      p
+        a.button.button--primary.button--full(href='http://www.zusaar.com/event/10417003', target='_blank') イベントに参加する
+
+.section
+  .grid
+    .grid__cell.grid__cell--12
+      h2.beta 協賛
+    .grid__cell.grid__cell--3
+      a
+    .grid__cell.grid__cell--6
+      a(href='http://www.d-zero.co.jp/', target='_blank')
+        img(src='/assets/img/partner/d-zero.png', width='100%')
+    .grid__cell.grid__cell--3
+      a
+    .grid__cell.grid__cell--4
+      a(href='http://www.e-catchup.jp/', target='_blank')
+        img(src='/assets/img/partner/e-catchup.png', width='100%')
+    .grid__cell.grid__cell--4
+      a(href='https://www.facebook.com/anysense.inc', target='_blank')
+        img(src='/assets/img/partner/anysense.png', width='100%')
+    .grid__cell.grid__cell--4
+      a(href='http://ccf.jp.net/', target='_blank')
+        img(src='/assets/img/partner/ccf.png', width='100%')
+
+.section
+  .grid
+    .grid__cell.grid__cell--12
+      h2.beta 協力
+    .grid__cell.grid__cell--4
+      a(href='http://www.cyberagent.co.jp', target='_blank')
+        img(src='/assets/img/partner/cyberagent.jpg', width='100%')
+
+script.
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = new jsgirls.Map('#js-map-canvas');
+  });
