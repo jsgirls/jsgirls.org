@@ -1,1 +1,0 @@
-window.jsgirls = window.jsgirls || {};
