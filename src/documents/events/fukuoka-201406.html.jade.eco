@@ -20,8 +20,8 @@ image: "/assets/img/event/fukuoka-201406.jpg"
         いままでにはないリラックスした雰囲気で、JavaScriptで自分の考えたものを何か作ってみましょう！
         苦手だと思っていたプログラミングも、意外とかけちゃうかもよ？！(ｕ_ｕ*)
       p.
-        参加者15人に対して、講師はなんと10人！
-        講師の半分も女性ですので、より気兼ねなく質問もできますよ。
+        参加者15人に対して、講師はなんと11人！
+        講師の約半数も女性ですので、より気兼ねなく質問もできますよ。
         ひとりじゃ難しくて勉強を進められないと思っていた方も、
         作ろうと思って、つまづいた時に聞ける人がいないと思っていた方も、
         これを機に、福岡で一緒にJavaScriptをはじめてみましょう！
@@ -210,6 +210,15 @@ image: "/assets/img/event/fukuoka-201406.jpg"
                 h3.delta 中村 晃也
                 p
                   a(href="https://www.facebook.com/koyank24") koyank24
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/youhei.iwasaki8")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c0.0.200.200/p200x200/1959803_283966095104948_1515615932_a.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 岩崎 洋平
+                p
+                  a(href="https://www.facebook.com/youhei.iwasaki8") youhei.iwasaki8
 
 .section
   .grid
