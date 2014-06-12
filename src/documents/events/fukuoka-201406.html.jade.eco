@@ -225,7 +225,7 @@ image: "/assets/img/event/fukuoka-201406.jpg"
                 a(href="http://twitter.com/murasakipinko")
                   img.frame(src='https://pbs.twimg.com/profile_images/475849750277668864/zyZjgKVo_200x200.png', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
-                h3.delta @murasakipinko
+                h3.delta Pinko
                 p
                   a(href="http://twitter.com/murasakipinko") @murasakipinko
 
