@@ -1,0 +1,246 @@
+---
+title: "JS Girls Osaka #1"
+date: "2014/07/05"
+place: "Osaka, Japan"
+summary: "HTML・CSS・JavaScriptを使ったコーディングをみんなで話し合いながら楽しく学ぼう！"
+layout: "event"
+isEvent: true
+image: "/assets/img/event/osaka-201407.jpg"
+---
+
+.section
+  .grid
+    .grid__cell.grid__cell--6
+      img(src='<%= @document.image %>', width='100%')
+    .grid__cell.grid__cell--6
+      h2.alpha <%= @document.title %>
+      p.
+        各地で盛り上がっているJavaScript女子のためのイベントJS Girls。次は大阪で開催します！リラックスした雰囲気で、Webサイトでよく見かけるUIパーツやエフェクト（ドロワーメニュー、タブ、モーダル、パララックスなどなど）をHTML・CSS・JavaScriptを使って作ってみましょう。
+      p.
+        参加者のみなさんで3人1組のチームを作り、チームごとに話し合いながらコーディングするというスタイルにしますので、楽しく学ぶことができます。わからないことがあれば、周りの講師たちに聞きながら進められるので、初心者の方でも安心です。
+      p.
+        コーディング・プログラミングスキルのアップには、他人のコードを読むことがとっても大事です。これを機に"できる"フロントエンドエンジニアへの第一歩を踏み出してみましょう！
+      p.text-right
+        ハッシュタグ：<a href="https://twitter.com/search?q=%23jsgirls_osaka">#jsgirls_osaka</a>
+
+.section
+  .grid
+    .grid__cell.grid__cell--6
+      .section.aside
+        h2.beta <%= @moment(@document.date).format('YYYY/MM/DD(ddd)') %>
+        dl.timetable
+          dt.timetable__time.
+            12:30
+          dd.timetable__content
+            p.strong
+              開場
+          dt.timetable__time.
+            13:00
+          dd.timetable__content
+            p.strong
+              会の説明・アイスブレイク
+          dt.timetable__time.
+            13:30
+          dd.timetable__content
+            p.strong
+              ハンズオン1:簡単なパララックスエフェクトを作ってみよう
+            p.
+              スクロール量をJavaScriptで取得して、一定の位置で要素を動かしてみましょう。困ったときには周りのメンターがサポートします。気軽に質問・相談してください！
+          dt.timetable__time.
+            14:45
+          dd.timetable__content
+            p.strong
+              ハンズオン1:発表
+            p
+              作ったものをチームごとに発表してみましょう。完ぺきにできてなくても大丈夫です。悩んだところやわからなかったところもみんなで共有。くわしくは講師たちが解説します。
+          dt.timetable__time.
+            15:30
+          dd.timetable__content
+            p.strong
+              おやつタイム
+            p
+              みんなでわいわいおやつを楽しみましょう！！
+          dt.timetable__time.
+            16:00
+          dd.timetable__content
+            p.strong
+              ハンズオン2:横からスライドして開くドロワーメニューを作ってみよう
+            p.
+              ボタン（三本線のアレ）を押したときに横からにゅるるっとアニメーションして開くメニューを作ってみましょう。スマホサイトとかでよく見かけるあいつです。
+          dt.timetable__time.
+            17:15
+          dd.timetable__content
+            p.strong
+              ハンズオン2:発表
+            p
+              作ったものをチームごとに発表してみましょう。完ぺきにできてなくても大丈夫です。悩んだところやわからなかったところもみんなで共有。くわしくは講師たちが解説します。
+          dt.timetable__time.
+            18:00
+          dd.timetable__content
+            p.strong
+              質問・相談タイム
+            p
+              ハンズオンした内容についての質問でもいいですし、普段のお仕事やこれからのキャリアプランに関する悩み、などがあったら講師たちに聞いてみましょう。制作会社でバリバリコードを書いているエンジニア、独立して制作におけるすべてをこなしているひと、広告代理店でディレクションしながらコードも書くひと、色んなタイプの講師がいますのできっとお役に立てるはずです。
+          dt.timetable__time.
+            19:00
+          dd.timetable__content
+            p.strong
+              解散
+            p
+              一日かけて開発をおこなったイベントも終わり、おつかれさまでした。
+              よければ参加の感想をTwitterやブログで報告してもらえると嬉しいです。
+
+    .grid__cell.grid__cell--6
+      .section
+        h2.beta.beta--highlight どんな人が参加できるの？
+        ul.list
+          li JavaScriptをもっと書けるようになりたい人
+          li どんな経験でも良いので、一度でもJavaScriptを書いたことがある人
+      .section
+        h2.beta.beta--highlight 持ってきてほしいもの
+        ul.list
+          li ノートPC（会場では用意していません）
+          li 飲みもの、おやつ（一人で食べられる量）
+      .section
+        h2.beta.beta--highlight よくある質問
+        dl.faq
+          dt.faq__q 参加費はかかりますか？
+          dd.faq__a 参加費は無料です。
+          dt.faq__q 無線LANや電源はありますか？
+          dd.faq__a はい、いずれも用意されています。ただし電源に関しては数に限りがあるので、共有して使ってください。
+          dt.faq__q 予習はした方がいいですか？
+          dd.faq__a
+            p ハンズオンでやる内容についてググるか次の書籍などを見て予習しておくと良いかもしれません。
+            ul.list
+              li
+                a(href='http://www.amazon.co.jp/dp/4774153761/') ノンプログラマのためのJavaScriptはじめの一歩
+              li
+                a(href='http://www.amazon.co.jp/dp/4839941874/') よくわかるJavaScriptの教科書
+              li
+                a(href='http://www.amazon.co.jp/dp/4844363883/') JavaScriptの新しい教科書 基礎から覚える、深く理解できる。
+
+      .section
+        h2.beta.beta--highlight メンター、チューター
+        ul.mentors
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="http://twitter.com/kamiyam")
+                  img.frame(src='https://avatars1.githubusercontent.com/u/171659', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta かみやん
+                div Meteorworks
+                p
+                  a(href="https://twitter.com/kamiyam") @kamiyam
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/konitter")
+                  img.frame(src='https://avatars1.githubusercontent.com/u/1539320', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 小西 春輝
+                p
+                  a(href="https://www.facebook.com/konitter") konitter
+                div &nbsp;
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/shimael")
+                  img.frame(src='https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/t1.0-1/c12.12.155.155/523943_336176199776417_672702104_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta しまえる
+                p
+                  a(href="https://twitter.com/shimael") @shimael
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/matsuoshi")
+                  img.frame(src='https://avatars0.githubusercontent.com/u/73213', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta マツオ
+                p
+                  a(href="https://twitter.com/matsuoshi") @matsuoshi
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/3panda")
+                  img.frame(src='https://avatars1.githubusercontent.com/u/463866', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 3panda
+                p
+                  a(href="https://twitter.com/3panda") @3panda
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/w3gjp")
+                  img.frame(src='https://avatars2.githubusercontent.com/u/615191', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 上田 遼
+                p
+                  a(href="https://twitter.com/w3gjp") @w3gjp
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/yokotak0527")
+                  img.frame(src='https://avatars3.githubusercontent.com/u/454935', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta yokotak0527
+                p
+                  a(href="https://twitter.com/yokotak0527") @yokotak0527
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/bobu_web")
+                  img.frame(src='https://avatars1.githubusercontent.com/u/6554937', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 二神 暢彦
+                p
+                  a(href="https://twitter.com/bobu_web") @bobu_web
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://www.facebook.com/emi.matsuda.3785")
+                  img.frame(src='https://scontent-a.xx.fbcdn.net/hphotos-prn2/t1.0-9/945412_536894723053027_1838075977_n.jpg', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 松田
+                p
+                  a(href="https://www.facebook.com/emi.matsuda.3785") emi.matsuda.3785
+          li
+            .flag.mentor
+              .flag__image.mentor__avatar
+                a(href="https://twitter.com/tanakahisateru")
+                  img.frame(src='https://avatars1.githubusercontent.com/u/403893', width='68', height='68')
+              .flag__body.flag__body--middle.mentor__body
+                h3.delta 田中ひさてる
+                div (株)ことば研究所
+                p
+                  a(href="https://twitter.com/tanakahisateru") tanakahisateru
+
+.section
+  .grid
+    .grid__cell.grid__cell--12
+      h2.beta 開催場所
+    .grid__cell.grid__cell--6
+      div.map-canvas.frame#js-map-canvas(data-lat='34.701981', data-lng='135.509992', data-zoom='17', data-title='TAM Coworking')
+    .grid__cell.grid__cell--6
+      h2.gamma TAM Coworking
+      p
+        大阪市北区末広町3-7
+      p
+        a(href="https://www.facebook.com/TAMCoworking") Facebookページ
+      h2.gamma アクセス
+      ul
+        li JR天満駅から徒歩5分
+        li 大阪市営地下鉄扇町駅から徒歩5分
+        li 大阪市営地下鉄南森町駅から徒歩7分
+
+.section
+  .grid.grid--center
+    .grid__cell.grid__cell--6
+      p
+        a.button.button--primary.button--full(href='#', target='_blank') イベントに参加する
+
+script.
+  document.addEventListener('DOMContentLoaded', function () {
+    var map = new jsgirls.Map('#js-map-canvas');
+  });
