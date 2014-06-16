@@ -238,7 +238,7 @@ image: "/assets/img/event/osaka-201407.jpg"
   .grid.grid--center
     .grid__cell.grid__cell--6
       p
-        a.button.button--primary.button--full(href='#', target='_blank') イベントに参加する
+        a.button.button--primary.button--full(href='http://jsgirls-osaka.connpass.com/event/6980/', target='_blank') イベントに参加する
 
 script.
   document.addEventListener('DOMContentLoaded', function () {
