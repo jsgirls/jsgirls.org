@@ -172,15 +172,6 @@ image: "/assets/img/event/osaka-201407.jpg"
           li
             .flag.mentor
               .flag__image.mentor__avatar
-                a(href="https://twitter.com/w3gjp")
-                  img.frame(src='https://avatars2.githubusercontent.com/u/615191', width='68', height='68')
-              .flag__body.flag__body--middle.mentor__body
-                h3.delta 上田 遼
-                p
-                  a(href="https://twitter.com/w3gjp") @w3gjp
-          li
-            .flag.mentor
-              .flag__image.mentor__avatar
                 a(href="https://twitter.com/yokotak0527")
                   img.frame(src='https://avatars3.githubusercontent.com/u/454935', width='68', height='68')
               .flag__body.flag__body--middle.mentor__body
@@ -205,16 +196,6 @@ image: "/assets/img/event/osaka-201407.jpg"
                 h3.delta 松田
                 p
                   a(href="https://www.facebook.com/emi.matsuda.3785") emi.matsuda.3785
-          li
-            .flag.mentor
-              .flag__image.mentor__avatar
-                a(href="https://twitter.com/tanakahisateru")
-                  img.frame(src='https://avatars1.githubusercontent.com/u/403893', width='68', height='68')
-              .flag__body.flag__body--middle.mentor__body
-                h3.delta 田中ひさてる
-                div (株)ことば研究所
-                p
-                  a(href="https://twitter.com/tanakahisateru") tanakahisateru
 
 .section
   .grid
