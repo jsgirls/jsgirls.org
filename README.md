@@ -20,24 +20,24 @@ There are event pages in `/src/documents/events`.
 
 Clone this (or your forked) repository.
 
-```sh
+```bash
 $ git clone git@github.com:jsgirls/jsgirls.org.git
 ```
 
 Install `docpad`.
 
-```sh
+```bash
 $ npm install -g docpad
 ```
 
 Install node modules.
 
-```sh
+```bash
 $ npm install
 ```
 
-Run at `localhost:9778`.
+Run at [localhost:9778](http://localhost:9778/).
 
-```sh
+```bash
 $ docpad run
 ```
