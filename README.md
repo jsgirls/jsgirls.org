@@ -2,19 +2,12 @@
 
 ## Contributing
 
+If you want to organize the event for "JS Girls", you can add an event page to http://jsgirls.org/events/ .
 Fork this repository and send a pull request **to development branch**.
 
 ### Event pages
 
 There are event pages in `/src/documents/events`.
-
-## Requirement
-
-- [Node.js](http://nodejs.org/) - `0.10.x` newest
-    - [DocPad](http://docpad.org/) - Static site generator
-    - [Grunt](http://gruntjs.com/) - Task runner
-    - [Jade](http://jade-lang.com/) - Template engine
-    - [Marked](https://github.com/chjj/marked) - Markdown parser
 
 ## Debug
 
